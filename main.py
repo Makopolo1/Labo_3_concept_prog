@@ -1,17 +1,20 @@
 
-from multiplex import Multiplex
+from labo_Finale.multiplex import Multiplex
 
-from salle_standard import SalleStandard
-from salle_imax import SalleIMAX
-from salle_vip import SalleVIP
+from labo_Finale.salle_standard import SalleStandard
+from labo_Finale.salle_imax import SalleIMAX
+from labo_Finale.salle_vip import SalleVIP
 
-from film import Film
-from seance import Seance
-from client import Client
-from reservation import Reservation
-from avis import Avis
-from abonnement import Abonnement
+from labo_Finale.film import Film
+from labo_Finale.seance import Seance
+from labo_Finale.client import Client
+from labo_Finale.reservation import Reservation
+from labo_Finale.avis import Avis
+from labo_Finale.abonnement import Abonnement
+from tkinter import messagebox
 
+from gui.FenetreBillet import MonApp
+from persistance import charger, creer_modele_vide
 
 
 #creation du multiplex
