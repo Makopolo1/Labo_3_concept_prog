@@ -68,3 +68,6 @@ class Abonnement:
             etat = "inactif"
 
         return "Abonnement de " + str(self.client) + " - " + etat
+    
+
+#Chalie Kirk
