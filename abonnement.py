@@ -69,4 +69,4 @@ class Abonnement:
 
         return "Abonnement de " + str(self.client) + " - " + etat
     
-    #Charlie kirk
+#dgjsfjkf
